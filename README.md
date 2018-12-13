@@ -33,6 +33,10 @@ If we add a `role="alert"` the VoiceOver will read out these messages straight a
 
 A proplem with this is though that it doesn't focus to those fields with errors. Dru mentioned a good solution is to have inline errors by the fields. Then put a summary of all of these errors with anchors to the input field at the top of the form. So when you click "submit" the focus changes to the summary and then the user can tab though normally. 
 
+### Android 
+
+On Android `select` buttons that are `disabled` still go through all the options. 
+
 ## High contrast
 
 Dont use CSS shapes for things as they don't show up in HighContrast mode. Use an SVG instead. 
