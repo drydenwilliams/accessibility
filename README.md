@@ -35,7 +35,7 @@ A proplem with this is though that it doesn't focus to those fields with errors.
 
 ### Android 
 
-On Android `select` buttons that are `disabled` still go through all the options. 
+`[BUG]:` On Android if a `select` element is `disabled` VoiceOver will still go through all the `option` elements within. 
 
 ## High contrast
 
